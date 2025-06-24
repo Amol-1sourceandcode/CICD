@@ -2,7 +2,7 @@ trigger:
   - main  # Or the branch you're working with
 
 pool:
-  name: Myagent1  # This matches the agent pool where your agent is listed
+  name: myagent1  # This matches the agent pool where your agent is listed
 
 steps:
   - script: echo "✅ Hello from Amol's self-hosted agent!"
